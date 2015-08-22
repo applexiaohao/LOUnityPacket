@@ -1,12 +1,31 @@
-![](http://d.pr/i/15Crh)
+#背包效果-使用NGUI实现物品的拖拽效果Drag
 
-- `PacketCell` 
+###效果实现如图
+![](http://images0.cnblogs.com/blog2015/662304/201508/221231492536779.gif)
+
+
+###对象层级关系图
+![](http://images0.cnblogs.com/blog2015/662304/201508/221232224565990.png)
+
+* * *
+- `PacketCell - Right` 
 	- 对象作为单元格背景
 - `PacketContainer`
 	- 对象作为单元格容器
 - `PacketLabel`
 	- 对象作为单元格物体
+* * *
+- `PacketCell - Left` 
+	- 对象作为单元格背景
+- `PacketContainer`
+	- 对象作为单元格容器
+- `PacketLabel`
+	- 对象作为单元格物体
+* * *
+- 'Label - Middle'
+	- 用来显示当前文字处于哪个位置
 
+* * *
 ### 物体能够被拖拽的几个条件
 
 - 碰撞器	`BoxCollider`
@@ -118,6 +137,7 @@ public class MyFirstDragDropItem:UIDragDropItem
 ```
 
 ### `Test.script`
+**挂载在MainCamera对象上的脚本**
 ```
 using UnityEngine;
 using System.Collections;
@@ -139,9 +159,3 @@ public class TestScript : MonoBehaviour {
 }
 
 ```
-
-
-
-
-
-
