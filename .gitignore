@@ -1,0 +1,12 @@
+#文件
+/LOUnityPacket/Assembly-CSharp-Editor-vs.csproj
+/LOUnityPacket/Assembly-CSharp-Editor.csproj
+/LOUnityPacket/Assembly-CSharp-vs.csproj
+/LOUnityPacket/Assembly-CSharp.csproj
+/LOUnityPacket/LOUnityPacket-csharp.sln
+/LOUnityPacket/LOUnityPacket.sln
+/LOUnityPacket/LOUnityPacket.userprefs
+# 文件夹
+/LOUnityPacket/Library/
+/LOUnityPacket/obj/
+/LOUnityPacket/Temp/
